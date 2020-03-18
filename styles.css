@@ -44,6 +44,5 @@ input {
 }
 
 .newsletter {
-    flex-direction: column;
     border: none;
 }
