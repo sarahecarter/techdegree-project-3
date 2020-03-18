@@ -1,1 +1,49 @@
-font-family: 'Merriweather', serif;
+* {
+    font-family: 'Merriweather', serif;
+}
+
+
+.title {
+    background-color:#4C4C58;
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: auto;
+}
+
+.signup {
+    text-align: center;
+    border-bottom: double black 4px;
+    font-size: 0.8em;
+}
+
+.signup p {
+    font-size: 0.6em;
+    color: gray;
+}
+
+label {
+    color:gray;
+}
+
+input {
+    background-color: lightgray;
+    border-radius: 10%
+    ;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact {
+    flex-direction: column;
+    border: none;
+    border-bottom: black 2px solid;
+}
+
+.newsletter {
+    flex-direction: column;
+    border: none;
+}
