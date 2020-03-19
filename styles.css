@@ -75,19 +75,6 @@ input::placeholder {
     margin-top: 10px 0px;
 }
 
-.letter_type {
-    border: none;
-}
-
-.format {
-    border: none;
-}
-
-.other {
-    border: none;
-    margin-top: 10px;
-}
-
 
 textarea {
     width: 100%;
