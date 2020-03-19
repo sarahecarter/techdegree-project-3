@@ -31,12 +31,13 @@ label {
     color:gray;
 }
 
-input {
+.contact input {
     background-color: #e6e6e6;
     width: 100%;
     border: none;
     height: 40px;
     border-radius: 2px;
+    margin-bottom: 20px;
     
 }
 
@@ -66,9 +67,6 @@ input::placeholder {
     padding-right: 10px;
 }
 
-.contact input {
-    margin-bottom: 20px;
-}
 
 .newsletter {
     border: none;
@@ -90,9 +88,8 @@ button {
     border: none;
     background-color: #52bab3;
     color: white;
-    border-radius: 2px;
-    margin: 10px;
-    text-align: center;
+    border-radius: 4px;
+    margin: auto;
 }
 
 footer {
