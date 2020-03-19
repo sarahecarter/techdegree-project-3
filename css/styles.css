@@ -109,3 +109,38 @@ footer {
     color: gray;
     margin-top: 20px;
 }
+
+
+/* Media Queries */
+@media(min-width:768px) {
+
+    .signup,
+    form {
+        width: 60%;
+        margin: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .container input,
+    .container select {
+        width: 60%;
+        padding: none;
+    }
+
+    
+
+    
+
+
+
+    
+
+    
+
+}
