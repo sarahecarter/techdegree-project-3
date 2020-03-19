@@ -97,19 +97,19 @@
             <input type="text" name="user_zip">
         </fieldset>
 
-        <fieldset class="letter_type">
+        <fieldset class="newsletter">
             <legend>Newsletter</legend>
 
             <div clas="news_type">
             <label>Select the newsletters you would like to recieve</label>
-            <label for="html_news"><input type="checkbox" id="html_news" name="user_newsletter">HTML News</label>
-            <label for="css_news"><input type="checkbox" id="css_news" name="user_newsletter">CSS News</label>
+            <input type="checkbox" id="html_news" name="user_newsletter"><label for="html_news">HTML News</label>
+            <input type="checkbox" id="css_news" name="user_newsletter"><label for="css_news">CSS News</label>
             <input type="checkbox" id="javascript_news" name="user_newsletter"><label for="javascript_news">Javascript News</label>
             </div>
 
-        </fieldset>
         
-        <fieldset class="format">
+        
+        
             <div class="news_format">
             <label>Newsletter format</label>
             <input type="radio" id="html_newsletter" value="html" name="html_format"><label for="html_format">HTML</label>
@@ -117,9 +117,11 @@
             </div>
         
 
+        
             <label>Other topics you'd like to hear about</label><br>
             <textarea></textarea>
         </fieldset>
+        
         
 
         <button type="submit">Sign Up</button>
