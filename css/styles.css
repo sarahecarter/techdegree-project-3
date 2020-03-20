@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #c5ccd6;
 }
 
 .title {
@@ -58,11 +59,16 @@ select {
     margin-bottom: 20px;
 }
 
+form {
+    background-color: white;
+}
+
 legend {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bold;
 }
+
 
 .contact {
     border: none;
@@ -79,7 +85,7 @@ input::placeholder {
 
 .newsletter {
     border: none;
-    margin-top: 10px 0px;
+    margin-top: 20px 0px;
 }
 
 .item {
