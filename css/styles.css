@@ -49,6 +49,9 @@ input[type=tel]:focus,
 select:focus,
 textarea:focus {
     outline: solid #4C4C58 2px;
+    background-color: white;
+    transition: background 0.5s;
+    
 }
 
 select {
@@ -113,7 +116,6 @@ button {
     background-color: #52bab3;
     color: white;
     border-radius: 4px;
-    margin: 0 5px;
     font-size: 1em;
 }
 
